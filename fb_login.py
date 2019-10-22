@@ -1,7 +1,7 @@
 # coding with sayed
 
 from selenium import webdriver
-from selenium import*
+
 driver=webdriver.Chrome("G:\\chromedriver")
 
 driver.get("https://www.facebook.com")
