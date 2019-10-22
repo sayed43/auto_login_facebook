@@ -1,3 +1,5 @@
+# coding with sayed
+
 from selenium import webdriver
 from selenium import*
 driver=webdriver.Chrome("G:\\chromedriver")
@@ -19,5 +21,5 @@ login_btn=driver.find_element_by_id("u_0_b")
 login_btn.submit()
 
 
-driver.find_elements_by_class_name("_1mf _1mj").send_keys("gello")
+
 
